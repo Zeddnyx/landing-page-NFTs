@@ -1,0 +1,425 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:wght@600&display=swap');
+
+body {
+   background-image: linear-gradient( 111deg,  rgba(36,57,73,1) 1.2%, rgba(28,38,50,1) 100.2% );
+   font-family: 'Albert Sans', sans-serif;
+   height: 2550px;
+   margin: 0px;
+   padding: 0px;
+}
+.container-nav {
+   display: flex;
+   justify-content: space-around;
+   margin: 10px;
+}
+.logo {
+   width: 40%;
+   height: 50px;
+   color: white;
+   font-size: 1em;
+   font-family: Arial;
+}
+
+nav {
+   width: 50%;
+   height: 10px;
+   display: flex;
+   flex-direction: row-reverse; 
+   justify-content: space-around;
+   font-size: 13px;
+}
+/* remove underline and blue color */
+nav a, a:link {
+   color: white;
+   text-decoration: none; 
+}
+
+
+.container-satu {
+   font-size: 2em;
+   color: white;
+   text-align: center;
+}
+
+
+
+
+.container-dua {
+   margin: -30px auto;
+   height: 10px;
+   width: 98%;
+   display: flex;
+   justify-content: center;
+   
+}
+
+.container-dua button {
+   height: 20px;
+   width: 120px;
+   border-radius: 10px;
+   border: 1px solid lightblue;
+   margin: 0px 20px 30px 0px;
+   background-color: lightblue;
+}
+.container-dua a, a:link {
+   color: white;
+   text-decoration: none; 
+   margin: 0px 0px 30px 20px;
+}
+
+
+
+
+.container-tiga {
+   margin-top: 100px;
+   display: flex;
+   justify-content: space-evenly;
+}
+.container-tiga h4,h5 {
+   color: white
+}
+
+
+
+
+
+.container-empat {
+   margin: 80px auto;
+   display: flex;
+   justify-content: center;
+}
+.kotak {
+   height: 90px;
+   width: 98%;
+   background-color: rgba(0,0,0,0.15); /* like opacity */
+   border-radius: 8px;
+}
+
+.judul-text {
+   height: 30px;
+   width: 100%;
+   font-size: 8px;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   margin: 15px auto
+}
+.isi-judul {
+   margin: -45px auto;
+   height: 30px;
+   width: 98%;
+   font-size: 20px;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+   font-family: Arial;
+   margin-left: 5px;
+}
+
+
+
+#text-judul-content {
+   text-align: center;
+   color: lightblue;
+   font-size: 1.5em;
+}
+
+
+
+
+.container-category {
+   margin: 20px auto;
+}
+
+.box-cate {
+   display: flex;
+	margin: 20px auto;
+	width: 100%;
+	overflow: auto;  /* membuat slide bisa di geser */
+	white-space: nowrap; /* ke di atas*/
+    
+}
+
+.box-cate .cate {
+   font-size: 10px;
+	width: 100px;
+   height: 10px;
+   margin: 5px; 
+   border-radius: 20px;
+   background-color: rgba(0,0,0,0.15);
+   text-align: center;
+   color: white;
+   padding: 10px 30px; 
+}
+.cate:hover {
+   background-color: lightblue;
+	color: black;
+}
+
+
+
+
+.container-lima {
+   display: flex;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.kotak-content {
+   height: 800px;
+   width: 98%;
+
+   border-radius: 10px;
+   display: flex;
+   justify-content: space-evenly;
+   flex-wrap: wrap;
+}
+.card {
+   height: 250px;
+   min-width: 30%;
+   background-color: rgba(255,255,255,0.255);
+   border-radius: 5px;
+   margin: 5px auto;
+   padding: 5px;
+}
+.header img {
+   height: 100%;
+   width: 100%;
+}
+.card .header {
+	height: 60%;
+	background-color: #ffffff;
+	border-radius: 5px;
+}
+.content div {
+   display: flex;
+   flex-wrap: wrap;
+   color: white;
+}
+ /*  a fucking stuck here  */
+
+.nama  {
+   height: 20px;
+   width: 100%;
+   
+   position: relative;
+   flex: 2;
+   display: flex;
+}
+.nama-nft {
+   font-size: 20px;
+   margin: 5px;
+}
+.user {
+   height: 20px;
+   width: 100%;
+   
+   position: relative;
+   flex: 1;
+   display: flex;
+   margin: 20px 0px 0px 0px;
+}
+.user-nft {
+   font-size: 15px;
+   margin: 5px;
+}
+.harga  {
+   height: 20px;
+   width: 90%;
+   
+   position: relative;
+   flex: 1;
+   display: flex;
+   margin: 20px 0px 0px 0px;
+}
+.harga-nft {
+   font-size: 15px;
+   margin: 5px;
+}
+
+
+.eth {
+   height: 20px;
+   width: 20px;
+   border-radius: 50px;
+   float: right;
+   position: relative;
+   bottom: 20px;
+   right: 3px;
+}
+
+
+
+.more {
+   margin: 40px;
+   width: 100px;
+   background-color: transparent;
+   border-radius: 10px;
+   border: 2px solid lightblue ;
+   color: lightblue;
+}
+
+
+
+
+
+
+#judul-artist {
+   text-align: center;
+   color: lightblue;
+   margin: 100px 0px 0px 0px;
+   font-size: 1.5em;
+}
+
+.container-enam {
+  margin: 30px auto;
+  height: 220px;
+  width: 98%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.container-enam .kotak-artists {
+   text-align: center;
+   color: lightblue;
+}
+
+.kotak-artists  {
+   
+   height: 28%;
+   width: 32%;
+   background-color: rgba(255,255,255,0.255);
+   color: white;
+   border-radius: 5px;
+   display: flex;
+}
+
+.kotak-artists img {
+   height: 100%;
+   width: 60px;
+   border-radius: 5px;
+}
+
+.kotak-dalam-artist {
+   height: 100%;
+   width: 80px;
+   display: flex;
+   margin: auto;
+}
+
+.kotak-dalam-artist h4{
+   margin: auto;
+}
+
+.container-rank {
+   height: 50px;
+   width: 98%;
+   display: flex;
+   justify-content: center;
+}
+.rangkings {
+   margin: 0px auto;
+   height: 20px;
+   width: 100px;
+   background-color: transparent;
+   border-radius: 10px;
+   border: 2px solid lightblue ;
+   color: lightblue;
+}
+
+
+
+
+.container-tujuh {
+   margin: 80px auto;
+   height: 300px;
+   width: 98%;
+   display: flex;
+   justify-content: space-around;
+}
+.container-tujuh .container-subs, .container-logo {
+   margin: 10px;
+}
+.container-subs {
+   height: 100%;
+   width: 70%;
+   color: white;
+   font-size: 25px;
+}
+.container-logo {
+   height: 100%;
+   width: 40%;
+}
+.email {
+   height: 25px;
+   width: 170px;
+   background-color: transparent;
+   border-radius: 20px;
+   border: 2px solid lightblue;
+   color: lightblue;
+}
+input::placeholder { 
+   color: lightblue; 
+}
+.submit-email {
+   height: 30px;
+   width: 70px;
+   background-color: transparent;
+   border-radius: 50px;
+   border: 2px solid lightblue;
+   color: lightblue;
+}
+.subs-img {
+    height: 200px;
+    width: 200px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+
+#container-delapan {
+   margin: -100px auto;
+   height: 220px;
+   width:  99%;
+   background-color: #151515;
+   padding: 0px 0px 0px 10px;
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+
+#container-delapan .box1, .box2, .box3, .box4 {
+   height: 98%;
+   width: 25%;
+   margin: 1px;
+   text-align: center;
+}
+
+.container-social {
+   display: flex;
+   justify-content: space-evenly;
+   
+}
+.container-social img {
+   height: 20px;
+   width: 20px;
+   border-radius: 70px;
+   margin: 5px;
+}
+
+/* remove dot from ul
+make text all left */
+ul {
+     list-style-type: none;
+     margin: 10px;
+     padding: 0px;
+     color: white;
+}
+li {
+    text-align: left;
+    font-size: 10px;
+    line-height: 2.3;
+}
+.judul-li {
+    margin: 10px;
+    font-size: 15px;
+}
